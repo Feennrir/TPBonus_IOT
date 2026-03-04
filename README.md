@@ -92,7 +92,8 @@ npx cloudflared tunnel --url http://localhost:8081
 docker compose up -d
 
 # 3. Démarrer le serveur Node.js
-node bridge.js
+npm install
+npm start
 ```
 
 ---
