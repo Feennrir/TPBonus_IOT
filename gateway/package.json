@@ -1,0 +1,18 @@
+{
+  "name": "smartposture-gateway",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node bridge.js",
+    "dev": "node --watch bridge.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.15.0",
+    "pg": "^8.19.0",
+    "ws": "^8.19.0"
+  },
+  "main": "bridge.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
